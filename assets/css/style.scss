@@ -1,44 +1,22 @@
----
----
+@import "lavender.scss";
 
-/* Defaults */
-/*
-$color_primary: #159957
-$color_secondary: #155799
-$color_text_light: #606c71
-*/
+$large-breakpoint: 64em;
+$medium-breakpoint: 42em;
 
-/* Muted and Minimal */
-$color_primary: #96858f				// Dusty
-$color_secondary: #6d7993			// Lavender
-$color_text_light: rgba(0,0,0,.6)	// 
-/*
-*/
+$header-heading-color: #fff;
+$header-bg-color: $color_primary;
+$header-bg-color-secondary: $color_secondary;
 
-/* Clean and Crisp */
-/*
-$color_primary: #99d3df				// Ice
-$color_secondary: #88bbd6			// Fresh Water
-$color_text_light: rgba(0,0,0,.6)	// 
-*/
+$section-headings-color: $color_primary;
+$body-text-color: $color_text_light;
+$body-link-color: #1e6bb8;
+$blockquote-text-color: #819198;
 
-$large-breakpoint: 64em
-$medium-breakpoint: 42em
+$code-bg-color: #f3f6fa;
+$code-text-color: #567482;
 
-$header-heading-color: #fff
-$header-bg-color: $color_primary
-$header-bg-color-secondary: $color_secondary
-
-$section-headings-color: $color_primary
-$body-text-color: $color_text_light
-$body-link-color: #1e6bb8
-$blockquote-text-color: #819198
-
-$code-bg-color: #f3f6fa
-$code-text-color: #567482
-
-$border-color: #dce6f0
-$table-border-color: #e9ebec
-$hr-border-color: #eff0f1
+$border-color: #dce6f0;
+$table-border-color: #e9ebec;
+$hr-border-color: #eff0f1;
 
 @import "{{ site.theme }}";
