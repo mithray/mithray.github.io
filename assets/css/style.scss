@@ -1,8 +1,7 @@
 ---
 ---
-@import "{{ site.theme }}";
 
-@import "lavender.scss";
+@import "./lavender.scss";
 
 $large-breakpoint: 64em;
 $medium-breakpoint: 42em;
@@ -23,3 +22,4 @@ $border-color: #dce6f0;
 $table-border-color: #e9ebec;
 $hr-border-color: #eff0f1;
 
+@import "{{ site.theme }}";
