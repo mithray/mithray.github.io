@@ -1,8 +1,35 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/* Defaults */
+/*
+$color_primary: #159957
+$color_secondary: #155799
+$color_text_light: #606c71
+*/
 
-* {
-	color: rebeccapurple;
-}
+/* Muted and Minimal */
+$color_primary: #96858f		// Dusty
+$color_secondary: #6d7993	// Lavender
+$color_text_light: rgba(0,0,0,.6)	// 
+
+$large-breakpoint: 64em !default;
+$medium-breakpoint: 42em !default;
+
+$header-heading-color: #fff !default;
+$header-bg-color: $color_primary !default;
+$header-bg-color-secondary: $color_secondary !default;
+
+$section-headings-color: $color_primary !default;
+$body-text-color: $color_text_light !default;
+$body-link-color: #1e6bb8 !default;
+$blockquote-text-color: #819198 !default;
+
+$code-bg-color: #f3f6fa !default;
+$code-text-color: #567482 !default;
+
+$border-color: #dce6f0 !default;
+$table-border-color: #e9ebec !default;
+$hr-border-color: #eff0f1 !default;
+
+@import "{{ site.theme }}";
