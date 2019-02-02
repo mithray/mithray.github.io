@@ -22,23 +22,23 @@ $color_secondary: #88bbd6			// Fresh Water
 $color_text_light: rgba(0,0,0,.6)	// 
 */
 
-$large-breakpoint: 64em !default;
-$medium-breakpoint: 42em !default;
+$large-breakpoint: 64em
+$medium-breakpoint: 42em
 
-$header-heading-color: #fff !default;
-$header-bg-color: $color_primary !default;
-$header-bg-color-secondary: $color_secondary !default;
+$header-heading-color: #fff
+$header-bg-color: $color_primary
+$header-bg-color-secondary: $color_secondary
 
-$section-headings-color: $color_primary !default;
-$body-text-color: $color_text_light !default;
-$body-link-color: #1e6bb8 !default;
-$blockquote-text-color: #819198 !default;
+$section-headings-color: $color_primary
+$body-text-color: $color_text_light
+$body-link-color: #1e6bb8
+$blockquote-text-color: #819198
 
-$code-bg-color: #f3f6fa !default;
-$code-text-color: #567482 !default;
+$code-bg-color: #f3f6fa
+$code-text-color: #567482
 
-$border-color: #dce6f0 !default;
-$table-border-color: #e9ebec !default;
-$hr-border-color: #eff0f1 !default;
+$border-color: #dce6f0
+$table-border-color: #e9ebec
+$hr-border-color: #eff0f1
 
 @import "{{ site.theme }}";
