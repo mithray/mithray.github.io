@@ -1,6 +1,6 @@
 # mithray.github.io
 
-My projects are generally based around the understanding that there is a tight connection between larger and smaller scale organizational structures, and improving either one of these is likely to improve experiences in the other. Some of my projects describe best practices, others implement them, others redefine them, others implement whole new ideas, some are simple, some might be profound.
+My projects are generally based around the understanding that there is a tight connection between larger and smaller scale organizational structures, and improving either one of these is likely to improve experiences in the other. Some of my projects describe best practices, others implement them, others redefine them, others implement whole new ideas.
 
 ## Projects
 
